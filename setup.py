@@ -21,7 +21,7 @@ setup(name='oemof',
       namespace_package=['oemof'],
       packages=find_packages(),
       package_data={
-          'examples': [
+          'oemof.examples': [
               os.path.join('solph',
                            'csv_reader',
                            'investment_example',
